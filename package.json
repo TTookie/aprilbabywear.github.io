@@ -32,6 +32,7 @@
     "imagemin-svgo": "^5.2.0"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "equalizecss": "^1.0.82",
     "gulp": "^3.9.1",
     "normalizecss": "^3.0.0"
