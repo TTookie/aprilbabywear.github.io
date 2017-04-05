@@ -1,5 +1,5 @@
 {
-  "name": "gulp-pure-start",
+  "name": "babywear",
   "version": "0.1.0",
   "description": "Start your project with 'Gulp Pure Start' easily then ever!",
   "main": "gulpfile.js",
@@ -33,6 +33,15 @@
   },
   "dependencies": {
     "equalizecss": "^1.0.82",
+    "gulp": "^3.9.1",
     "normalizecss": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TTookie/aprilbabywear.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TTookie/aprilbabywear.github.io/issues"
+  },
+  "homepage": "https://github.com/TTookie/aprilbabywear.github.io"
 }
