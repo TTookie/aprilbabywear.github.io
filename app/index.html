@@ -83,7 +83,7 @@
            <h1>Детское боди цвета "Поросёнок" от 3 до 5 месяцев</h1>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="fotorama" data-allowfullscreen="native" data-nav="thumbs">
+        <div class="fotorama" data-allowfullscreen="native" data-nav="thumbs" data-loop="true" data-autoplay="true">
           <img src="img/babybody/babybody (1).jpg">
           <img src="img/babybody/babybody (2).jpg">
           <img src="img/babybody/babybody (3).jpg">
@@ -101,15 +101,15 @@
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <form>
           <div class="form-group">
-            <label for="exampleInputPassword1">В каком Вы городе?</label>
-            <input type="name" class="form-control" id="exampleInputPassword1" placeholder="к примеру, Киев">
+            <label for="lead_city">В каком Вы городе?</label>
+            <input type="name" class="form-control" id="lead_city" placeholder="к примеру, Киев">
           </div>
             <div class="form-group">
-                <label for="exampleInputEmail1">Номер телефона</label>
-                <input type="phone" class="form-control" id="exampleInputEmail1" placeholder="+38 123 456 7890">
+                <label for="lead_phone">Номер телефона</label>
+                <input type="phone" class="form-control" id="lead_phone" placeholder="+38 123 456 7890">
             </div>
-           <label for="exampleInputPassword1">Как желаете получить?</label>
-        <select class="form-control">
+           <label for="lead_delivery">Как желаете получить?</label>
+        <select class="form-control" id="lead_delivery">
           <option>Доставка Новой Почтой</option>
           <option>Приеду в шоурум (г.Киев)</option>
           <option>Пока не знаю. Жду звонка</option>
