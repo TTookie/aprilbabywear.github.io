@@ -115,8 +115,7 @@
 
 <!-- разворот №1 -->
 <!-- шапка -->
-
-  <div class="row">
+<div class="row">
           <nav class="navbar navbar-default" style="background: transparent; border: 0px solid #fff;">
               <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -133,32 +132,34 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Боди <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Подробнее</a></li>
+                    <li class="active"><a href="#main">Боди <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#more">Подробнее</a></li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Товары <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">Футболки</a></li> <!-- место для {{ }} -->
-                        <li><a href="#">Штанишки</a></li>
-                        <li><a href="#">Кофточки</a></li>
+                        <li><a href="/comby">Комби</a></li> <!-- место для {{ }} -->
+                        <li><a href="/pants">Штанишки</a></li>
+                        <li><a href="/couple">Комплекты</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Боди</a></li>
+                        <li><a href="/body">Боди</a></li>
                         <li role="separator" class="divider"></li>
                       </ul>
                     </li>
-                     <li><a href="#">О компании</a></li>
-                     <li><a href="#">Контакты</a></li>
+                     <li><a href="#contact">О компании</a></li>
+                     <li><a href="#contact">Контакты</a></li>
                   </ul>
 
                   <ul class="nav navbar-nav navbar-right">
                     <li><a href="#"></a></li>
                     <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">+38 067 ___ __ __ <span class="caret"></span></a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                          +38 093 403 6026 <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">+38 099 ___ __ __</a></li>
-                        <li><a href="#">+38 093 ___ __ __</a></li>
+                        <li><a href="#">+38 099 403 6026</a></li>
+                        <li><a href="#">+38 067 403 6026</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a class="btn btn-warning" href="#">Заказать звонок</a></li>
+                          <center><a class="btn btn-primary" href="#callback">Заказать звонок</a></center>
+
                       </ul>
                     </li>
                   </ul>
@@ -168,7 +169,7 @@
   </div>
 <!--/ шапка -->
 <!-- зона продукта и формы -->
-<div class="row" >
+<div class="row" id="main">
     <div class="col-xs-12 text-center" style="margin: 0 0 50px;">
            <h1>Детский бодик цвета "Поросёнок" от 3 до 5 месяцев</h1>
     </div>
@@ -228,13 +229,11 @@
 
     <!--/ форма заказа -->
 </div>
-
 <!--/ зона продукта и формы  -->
-
 <!--/ разворот №1 -->
 
 <!-- разворот №2 -->
-  <div class="row">
+<div class="row" id="more">
  <h3 class="text-center">Другие товары, которые могут быть вам интересны</h3>
     <!-- Другие товары -->
 
@@ -320,11 +319,11 @@
       </div>
 
   </div>
-    <!-- /Другие товары -->
-
+<!-- /Другие товары -->
 <!--/ разворот №2 -->
 
 <!-- разворот №3 -->
+  <!-- Контакты -->
 <div class="row">
         <h2>Часто задаваемые вопросы</h2>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -396,9 +395,9 @@
          
         </div>
 </div>
-  <div class="row">
+<div class="row" id="contact">
       <!-- /О компании -->
-      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" style="margin: 0 0 30px;">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" style="margin: 0 0 30px; background: rgba(255,255,255,0.4); border-radius: 20px; padding: 20px 30px;">
               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                   <img class="img-responsive img-rounded" src="img/weare.jpg" alt="..." style="margin-bottom: 30px;">
               </div>
@@ -426,17 +425,12 @@
           <a href="mailto:mar.klimishina@gmail.com">mar.klimishina@gmail.com</a>
         </address>
 
-        <button class="btn btn-default">Вернуться к заказу</button>
-        <button class="btn btn-primary">Заказать звонок</button>
+        <a class="btn btn-default" href="#main">Вернуться к заказу</a>
+        <a class="btn btn-primary" href="#callback">Заказать звонок</a>
 
         </div>
   </div>
-
-<!-- Контакты -->
-
-
-    <!-- /Контакты -->
-
+<!-- /Контакты -->
 <!--/ разворот №3 -->
 
 
