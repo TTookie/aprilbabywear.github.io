@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>В помощь мамам - магазин детской одежды</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -155,10 +155,10 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                           +38 093 403 6026 <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">+38 099 403 6026</a></li>
-                        <li><a href="#">+38 067 403 6026</a></li>
+                        <li><a href="#callback">+38 099 403 6026</a></li>
+                        <li><a href="#callback">+38 067 403 6026</a></li>
                         <li role="separator" class="divider"></li>
-                          <center><a class="btn btn-primary" href="#callback">Заказать звонок</a></center>
+                          <center><button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Заказать звонок</button></center>
 
                       </ul>
                     </li>
@@ -426,14 +426,30 @@
         </address>
 
         <a class="btn btn-default" href="#main">Вернуться к заказу</a>
-        <a class="btn btn-primary" href="#callback">Заказать звонок</a>
+        <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Заказать звонок</button>
 
         </div>
   </div>
 <!-- /Контакты -->
 <!--/ разворот №3 -->
 
+<!-- Callback -->
+  <!-- Small modal -->
 
+        <div class="modal fade bs-example-modal-sm text-center"  tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div  class="modal-content" style="padding: 30px 10px;" >
+              <form class="form-inline" action="callback.php">
+                  <div class="form-group">
+                    <label for="exampleInputEmail2">На какой номер вам перезвонить?</label>
+                    <input type="phone" class="form-control" id="exampleInputEmail2" placeholder="+38 123 456 7890">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Жду звонка!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+<!-- Callback -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
