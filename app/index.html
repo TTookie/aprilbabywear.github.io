@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>В помощь мамам - магазин детской одежды</title>
-
+     <meta name="Description" content="В помощь мамам - одежда, хорошая для малышей">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
@@ -137,11 +137,11 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Товары <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="/comby">Комби</a></li> <!-- место для {{ }} -->
-                        <li><a href="/pants">Штанишки</a></li>
-                        <li><a href="/couple">Комплекты</a></li>
+                        <li><a href="comby.html">Комби</a></li> <!-- место для {{ }} -->
+                        <li><a href="pants.html">Штанишки</a></li>
+                        <li><a href="couple.html">Комплекты</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="/body">Боди</a></li>
+                        <li><a href="body.html">Боди</a></li>
                         <li role="separator" class="divider"></li>
                       </ul>
                     </li>
@@ -205,11 +205,11 @@
         <form role="form" action="php/body-pink.php" style="margin: 50px 0; padding: 50px; background: rgba(238, 238, 238, 0.5); border-radius: 20px;">
           <div class="form-group">
             <label for="lead_city">В каком Вы городе?</label>
-            <input type="name" class="form-control" id="lead_city" placeholder="к примеру, Киев" required>
+            <input type="text" class="form-control" id="lead_city" placeholder="к примеру, Киев" required>
           </div>
             <div class="form-group">
                 <label for="lead_phone">Номер телефона</label>
-                <input type="phone" class="form-control" id="lead_phone" placeholder="+38 123 456 7890" required>
+                <input type="text" class="form-control" id="lead_phone" placeholder="+38 123 456 7890" required>
             </div>
            <label for="lead_delivery">Как желаете получить?</label>
         <select class="form-control" id="lead_delivery">
@@ -281,7 +281,7 @@
                 <div class="caption">
                     <h3>Комплект</h3>
                     <p>100% хлопок</p>
-                    <p><a href="couple.html" class="btn btn-default" role="button">340 грн</a>  <a href="/couple" class="btn btn-primary" role="button">Подробнее</a></p>
+                    <p><a href="couple.html" class="btn btn-default" role="button">340 грн</a>  <a href="couple.html" class="btn btn-primary" role="button">Подробнее</a></p>
                 </div>
             </div>
         </div>  
@@ -525,7 +525,7 @@
       <!-- /О компании -->
       <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" style="margin: 0 0 30px; background: rgba(255,255,255,0.4); border-radius: 20px; padding: 20px 30px;">
               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                  <img class="img-responsive img-rounded" src="img/babybody/babybody 2 (9).jpg" alt="..." style="margin-bottom: 30px;">
+                  <img class="img-responsive img-rounded" src="img/babybody/babybody 2 (8).jpg" alt="..." style="margin-bottom: 30px;">
               </div>
               <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <h4 class="media-heading">О компании</h4>
@@ -568,7 +568,7 @@
               <form class="form-inline" method="post"  action="php/callback.php">
                   <div class="form-group">
                     <label for="exampleInputEmail2">На какой номер вам перезвонить?</label>
-                    <input type="phone" class="form-control" id="exampleInputEmail2" placeholder="+38 123 456 7890" required>
+                    <input type="text" class="form-control" id="exampleInputEmail2" placeholder="+38 123 456 7890" required>
                   </div>
                   <button type="submit" class="btn btn-primary">Жду звонка!</button>
               </form>
