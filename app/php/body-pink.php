@@ -1,8 +1,8 @@
 <?php
 // ----------------------------конфигурация-------------------------- //
 
-$adminemail="babywear.work@gmail.com";  // e-mail админа
-$email="babywear.work@gmail.com"; // почта пользователя по умолчанию
+$adminemail="babywear.work@gmail.com, mar.klimishina@gmail.com";  // e-mail админа
+$email="babywear.work@gmail.com, mar.klimishina@gmail.com"; // почта пользователя по умолчанию
 $date=date("d.m.y"); // число.месяц.год
 $time=date("H:i"); // часы:минуты:секунды
 $backurl="/spasibo";  // На какую страничку переходит после отправки письма
@@ -19,7 +19,7 @@ $delivery=$_POST['lead_delivery'];
 $message=$_POST['lead_text'];
 
 $msg="
-Заявка на комплект
+Заявка на розовый боди
 
 Город: $city
 Телефон: $phone
@@ -31,7 +31,7 @@ $msg="
 
  // Отправляем письмо админу
 
-mail("$adminemail", "$date $time Сообщение
+mail("$adminemail", "$date $time Сообщение на розовый боди
 из $city", "$msg");
 
 
