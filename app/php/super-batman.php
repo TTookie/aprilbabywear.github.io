@@ -19,7 +19,7 @@ $delivery=$_POST['lead_delivery'];
 $message=$_POST['lead_text'];
 
 $msg="
-Заявка на боди
+Заявка на супергеройский свитшот
 
 Город: $city
 Телефон: $phone
@@ -31,7 +31,7 @@ $msg="
 
  // Отправляем письмо админу
 
-mail("$adminemail", "$date $time Сообщение на боди
+mail("$adminemail", "$date $time Сообщение на супергеройский свитшот
 из $city", "$msg");
 
 
