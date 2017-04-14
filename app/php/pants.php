@@ -19,7 +19,7 @@ $delivery=$_POST['lead_delivery'];
 $message=$_POST['lead_text'];
 
 $msg="
-Заявка на розовый боди
+Заявка на штанишки
 
 Город: $city
 Телефон: $phone
@@ -31,7 +31,7 @@ $msg="
 
  // Отправляем письмо админу
 
-mail("$adminemail", "$date $time Сообщение на розовый боди
+mail("$adminemail", "$date $time Сообщение на штанишки
 из $city", "$msg");
 
 
