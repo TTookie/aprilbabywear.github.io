@@ -19,7 +19,7 @@ $delivery=$_POST['lead_delivery'];
 $message=$_POST['lead_text'];
 
 $msg="
-Заявка на комплект
+Заявка на комплект (боди + комби)
 
 Город: $city
 Телефон: $phone
